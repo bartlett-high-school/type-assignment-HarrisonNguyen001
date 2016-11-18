@@ -1,4 +1,30 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'aleobold';
+    src: url('../fonts/aleo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
 
 
 /* Start the CSS*/
@@ -22,29 +48,30 @@ body {
 }
 
 h1 {
-
+	font-family: 'aleobold', serif;
+	
 }
 
 h2 {
-
+    	font-family: 'open_sansbold';
 }
 
 h3 {
-
+	font-family: 'aleobold', serif;
 }
 
 h4 {
-
+    	font-family: 'open_sansbold';
 }
 
 h5 {
-
+	font-family: 'aleobold', serif;
 }
 
 h6 {
-
+    	font-family: 'open_sansbold';
 }
 
 p {
-
+	font-family: 'aleobold', serif;
 }
